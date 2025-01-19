@@ -24,33 +24,3 @@ This application allows you to encrypt a file using the [AES](https://en.wikiped
 * Select the file using a file chooser
 * Friendly graphical user interface showing the progress of the task
 * Embedded web browser on the "about" pane that opens this GitHub page
-
-## Getting started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-It's highly recommended that you edit this project using IntelliJ IDEA from JetBrains that can be downloaded [here](https://www.jetbrains.com/idea/) since it was developed using that same tool.
-
-### Resources
-
-* Icon
-
-The icon used was made by:
-[Fabián Alexis](https://github.com/fabianalexisinostroza/Antu) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
-
-## Notes
-
-If you're only looking for the encryption/decryption code without the user interface, you can find it [here](https://github.com/luisbraganca/file-encryption/blob/master/file-encryption/src/security/FileEncryption.java), fully commented.
-Usage example:
-```java
-new FileEncryption("Example.pdf", "MyPaSsWoRd!123", FileEncryption.ENCRYPT_MODE).start();
-```
-The rest of the project isn't that much commented but it's mainly JavaFX operations.
-
-## Authors
-
-* **Luís Bragança Silva** - *Initial work*
-* **João Marques Capinha** - *Initial work*
-* **Pedro Fernandes Costa** - *Initial work*
